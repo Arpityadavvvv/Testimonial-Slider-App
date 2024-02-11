@@ -50,7 +50,7 @@ const Testimonial = (props) =>
     }
     
     return (
-        <div className="  w-[85px] md:w-[750px] bg-white flex flex-col justify-center items-center trasition-all duration-700 mt-10 pt-10">
+        <div className="sm:w-[600px] md:w-[775px]  bg-white flex flex-col justify-center items-center trasition-all duration-700 mt-10 pt-10">
             <Card review = {reviews[index]}></Card>
 
             <div className="text-center mx-auto mt-5  flex  gap-3 justify-center items-center p-4  " >
@@ -58,7 +58,7 @@ const Testimonial = (props) =>
                 <button onClick={rightShifthandler} > <FaArrowRight className="  text-violet-400"></FaArrowRight> </button>
             </div>
 
-            <div className="text-center mx-auto mt-3 gap-3 p-4">
+            <div className="text-center mx-auto md:mt-3 md:gap-3 md:p-4">
             <button onClick={surpriseHandler} className="  hover:bg-violet-400 bg-violet-600 trasition-all duration-200 cursor-pointer px-10 py-2 rounded-md font-bold text-white text-lg">Surprise ME</button>
             </div>
         </div>
