@@ -17,14 +17,14 @@ const Card = (props) =>
         
 
         <div className="flex flex-col md:relative  pl-5 pr-5 pb-3  ">
-            <div className="absolute top-[-7rem] z-[10] mx-auto ">
-            <img className="rounded-full aspect-square w-[140px] h-[140px] z-25" src={review.image}></img>
-            <div className="rounded-full w-[140px] h-[140px] absolute  z-[-9] bg-purple-400 top-[-6px] left-[10px] "></div>
+            <div className="absolute  md:top-[-7rem] sm:top-[15rem]  z-[10] mx-auto ">
+            <img className="rounded-full aspect-square md:w-[140px] md:h-[140px] sm:w-[65px] sm:mt-[14px] sm:h-[65px]  z-25 " src={review.image}></img>
+            <div className="rounded-full md:w-[140px] md:h-[140px]  sm:w-[70px] sm:h-[70px]  absolute  z-[-9] bg-purple-400 md:top-[-6px] md:left-[10px] sm:top-[20px] "></div>
 
            
             </div>
 
-            <h3 className="text-center mt-7 font-bold text-2xl capitalize">{review.name}</h3>
+            <h3 className="text-center mt-7 md:font-bold md:text-2xl sm:text-xl sm:pl-2 sm:pr-2 capitalize   ">{review.name}</h3>
 
             <h5 className="text-center mt-7 uppercase text-violet-500 text-sm font-bold ">{review.job}</h5>
 
