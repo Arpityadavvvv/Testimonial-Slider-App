@@ -16,10 +16,10 @@ const Card = (props) =>
     return (
         
 
-        <div className="flex flex-col md:relative  pl-5 pr-5 pb-3  ">
-            <div className="absolute  md:top-[-7rem] sm:top-[15rem]  z-[10] mx-auto ">
-            <img className="rounded-full aspect-square md:w-[140px] md:h-[140px] sm:w-[65px] sm:mt-[14px] sm:h-[65px]  z-25 " src={review.image}></img>
-            <div className="rounded-full md:w-[140px] md:h-[140px]  sm:w-[70px] sm:h-[70px]  absolute  z-[-9] bg-purple-400 md:top-[-6px] md:left-[10px] sm:top-[20px] "></div>
+        <div className="flex flex-col md:relative sm:relative   pl-5 pr-5 pb-3  ">
+            <div className="md:absolute sm:absolute md:top-[-5rem] sm:top-[12rem]  z-[10] mx-auto ">
+            <img className="rounded-full aspect-square md:w-[120px] md:h-[120px] sm:w-[75px] sm:mt-[14px] sm:h-[75px]  z-25 " src={review.image}></img>
+            <div className="rounded-full md:w-[120px] md:h-[120px]  sm:w-[75px] sm:h-[75px]  md:absolute sm:absolute  z-[-9] bg-purple-400 md:top-[-6px] md:left-[10px] sm:top-[14px] sm:left-[10px]"></div>
 
            
             </div>
